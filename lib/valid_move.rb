@@ -5,3 +5,8 @@ def position_taken?(board,inex)
     return true
   end
 end
+def valid_move?
+  if position_taken?
+    return true
+  end
+end
