@@ -6,7 +6,9 @@ def position_taken?(board,inex)
   end
 end
 def valid_move?
-  if position_taken?(board,index)
+  if position_taken?==false
     return true
+  elsif position_taken?==true && position_taken?==nil
+    return false
   end
 end
