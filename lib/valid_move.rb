@@ -13,7 +13,7 @@ def valid_move?(board,index)
   #end
   if board[index]==" "||board[index]==""||board[index]==nil
     return true
-  else #board[index].between?(1,9)
+  else board[index].between?(1,9)=="X||0"
     return false||nil
   end
 end
