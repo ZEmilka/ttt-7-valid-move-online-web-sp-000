@@ -17,4 +17,3 @@ def valid_move?(board,index)
     return false||nil
   end
 end
-
