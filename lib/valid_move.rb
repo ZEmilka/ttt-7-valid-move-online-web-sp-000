@@ -11,4 +11,5 @@ def valid_move?(board,index)
   #elsif position_taken?==true && position_taken?==nil
   #  return false
   #end
+  if board[index]==" "||board[index]==""||board[index]==nil
 end
